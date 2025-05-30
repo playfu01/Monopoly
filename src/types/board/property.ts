@@ -1,4 +1,4 @@
-import { Space, SpaceType, SpaceAction } from "./space";
+import {Space} from "./space";
 
 export interface Property extends Space {
     type: 'property';
@@ -10,13 +10,25 @@ export interface Property extends Space {
     hotels: number;
   }
 
-export type ColorGroup=
-    | "brown" 
+  export type ColorGroup = 
+    | 'brown'
+    | 'light-blue'
+    | 'purple'
+    | 'orange'
+    | 'red'
+    | 'yellow'
+    | 'green'
+    | 'blue' 
 
 
 
 export interface RentStructure{
-
+  base: number;
+  oneHouse: number;
+  twoHouses: number;
+  threeHouses: number;
+  fourHouses: number;
+  hotel: number;
 }
 
 

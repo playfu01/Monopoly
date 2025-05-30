@@ -1,9 +1,9 @@
-import { Space, SpaceType, SpaceAction } from "./space";
+import {Space} from "./space";
 
 export interface GoSpace extends Space{
     type: "go";
     action:{
-        type: "default"
+        actionType: "default"
         amount: number;
     };
     
@@ -12,7 +12,7 @@ export interface GoSpace extends Space{
 export interface JailSpace extends Space{
     type: "jail";
     action:{
-        type: "special"
+        actionType: "special"
         action: () => void;
     }
 }
@@ -20,14 +20,16 @@ export interface JailSpace extends Space{
 export interface FreeParkingSpace extends Space{
     type: "free-parking";
     action:{
-        type: "default"
+        actionType: "special";
+        action: () => Promise<void>
     }
+    collectedFunds: number;
 }
 
 export interface GoToJailSpace extends Space{
     type: "go-to-jail";
     action:{
-        type: "special"
+        actionType: "special"
         action: () => void;
     }
 }
@@ -35,7 +37,7 @@ export interface GoToJailSpace extends Space{
 export interface TaxSpace extends Space{
     type: "tax";
     action:{
-        type: "default"
+        actionType: "default"
         amount: number
     }
 }
@@ -43,7 +45,7 @@ export interface TaxSpace extends Space{
 export interface CardSpaces extends Space{
     type: "chance" | "community-chest";
     action:{
-        type: "special"
+        actionType: "special"
         action: () => void;
     }
 }

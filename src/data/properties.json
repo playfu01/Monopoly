@@ -1,0 +1,333 @@
+[
+    {
+        "name": "Mediterranean Avenue",
+        "position": 1,
+        "color": "brown",
+        "price": 60,
+        "rent": {
+            "base": 2,
+            "oneHouse": 10,
+            "twoHouses": 30,
+            "threeHouses": 90,
+            "fourHouses": 160,
+            "hotel": 250
+        },
+        "mortgageValue": 30
+    },
+    {
+        "name": "Baltic Avenue",
+        "position": 3,
+        "color": "brown",
+        "price": 60,
+        "rent": {
+            "base": 4,
+            "oneHouse": 20,
+            "twoHouses": 60,
+            "threeHouses": 180,
+            "fourHouses": 320,
+            "hotel": 450
+        },
+        "mortgageValue": 30
+    },
+    {
+        "name": "Oriental Avenue",
+        "position": 6,
+        "color": "light-blue",
+        "price": 100,
+        "rent": {
+            "base": 6,
+            "oneHouse": 30,
+            "twoHouses": 90,
+            "threeHouses": 270,
+            "fourHouses": 400,
+            "hotel": 550
+        },
+        "mortgageValue": 50
+    },
+    {
+        "name": "Vermont Avenue",
+        "position": 8,
+        "color": "light-blue",
+        "price": 100,
+        "rent": {
+            "base": 6,
+            "oneHouse": 30,
+            "twoHouses": 90,
+            "threeHouses": 270,
+            "fourHouses": 400,
+            "hotel": 550
+        },
+        "mortgageValue": 50
+    },
+    {
+        "name": "Connecticut Avenue",
+        "position": 9,
+        "color": "light-blue",
+        "price": 120,
+        "rent": {
+            "base": 8,
+            "oneHouse": 40,
+            "twoHouses": 100,
+            "threeHouses": 300,
+            "fourHouses": 450,
+            "hotel": 600
+        },
+        "mortgageValue": 60
+    },
+    {
+        "name": "St. Charles Place",
+        "position": 11,
+        "color": "purple",
+        "price": 140,
+        "rent": {
+            "base": 10,
+            "oneHouse": 50,
+            "twoHouses": 150,
+            "threeHouses": 450,
+            "fourHouses": 625,
+            "hotel": 750
+        },
+        "mortgageValue": 70
+    },
+    {
+        "name": "States Avenue",
+        "position": 13,
+        "color": "purple",
+        "price": 140,
+        "rent": {
+            "base": 10,
+            "oneHouse": 50,
+            "twoHouses": 150,
+            "threeHouses": 450,
+            "fourHouses": 625,
+            "hotel": 750
+        },
+        "mortgageValue": 70
+    },
+    {
+        "name": "Virginia Avenue",
+        "position": 14,
+        "color": "purple",
+        "price": 160,
+        "rent": {
+            "base": 12,
+            "oneHouse": 60,
+            "twoHouses": 180,
+            "threeHouses": 500,
+            "fourHouses": 700,
+            "hotel": 900
+        },
+        "mortgageValue": 80
+    },
+    {
+        "name": "St. James Place",
+        "position": 16,
+        "color": "orange",
+        "price": 180,
+        "rent": {
+            "base": 14,
+            "oneHouse": 70,
+            "twoHouses": 200,
+            "threeHouses": 550,
+            "fourHouses": 750,
+            "hotel": 950
+        },
+        "mortgageValue": 90
+    },
+    {
+        "name": "Tennessee Avenue",
+        "position": 18,
+        "color": "orange",
+        "price": 180,
+        "rent": {
+            "base": 14,
+            "oneHouse": 70,
+            "twoHouses": 200,
+            "threeHouses": 550,
+            "fourHouses": 750,
+            "hotel": 950
+        },
+        "mortgageValue": 90
+    },
+    {
+        "name": "New York Avenue",
+        "position": 19,
+        "color": "orange",
+        "price": 200,
+        "rent": {
+            "base": 16,
+            "oneHouse": 80,
+            "twoHouses": 220,
+            "threeHouses": 600,
+            "fourHouses": 800,
+            "hotel": 1000
+        },
+        "mortgageValue": 100
+    },
+    {
+        "name": "Kentucky Avenue",
+        "position": 21,
+        "color": "red",
+        "price": 220,
+        "rent": {
+            "base": 18,
+            "oneHouse": 90,
+            "twoHouses": 250,
+            "threeHouses": 700,
+            "fourHouses": 875,
+            "hotel": 1050
+        },
+        "mortgageValue": 110
+    },
+    {
+        "name": "Indiana Avenue",
+        "position": 23,
+        "color": "red",
+        "price": 220,
+        "rent": {
+            "base": 18,
+            "oneHouse": 90,
+            "twoHouses": 250,
+            "threeHouses": 700,
+            "fourHouses": 875,
+            "hotel": 1050
+        },
+        "mortgageValue": 110
+    },
+        {
+            "name": "Illinois Avenue",
+            "position": 24,
+            "color": "red",
+            "price": 240,
+            "rent": {
+                "base": 20,
+                "oneHouse": 100,
+                "twoHouses": 300,
+                "threeHouses": 750,
+                "fourHouses": 925,
+                "hotel": 1100
+            },
+            "mortgageValue": 120
+        },
+        {
+            "name": "Atlantic Avenue",
+            "position": 26,
+            "color": "yellow",
+            "price": 260,
+            "rent": {
+                "base": 22,
+                "oneHouse": 110,
+                "twoHouses": 330,
+                "threeHouses": 800,
+                "fourHouses": 975,
+                "hotel": 1150
+            },
+            "mortgageValue": 130
+        },
+        {
+            "name": "Ventnor Avenue",
+            "position": 27,
+            "color": "yellow",
+            "price": 260,
+            "rent": {
+                "base": 22,
+                "oneHouse": 110,
+                "twoHouses": 330,
+                "threeHouses": 800,
+                "fourHouses": 975,
+                "hotel": 1150
+            },
+            "mortgageValue": 130
+        },
+        {
+            "name": "Marvin Gardens",
+            "position": 29,
+            "color": "yellow",
+            "price": 280,
+            "rent": {
+                "base": 24,
+                "oneHouse": 120,
+                "twoHouses": 360,
+                "threeHouses": 850,
+                "fourHouses": 1025,
+                "hotel": 1200
+            },
+            "mortgageValue": 140
+        },
+        {
+            "name": "Pacific Avenue",
+            "position": 31,
+            "color": "green",
+            "price": 300,
+            "rent": {
+                "base": 26,
+                "oneHouse": 130,
+                "twoHouses": 390,
+                "threeHouses": 900,
+                "fourHouses": 1100,
+                "hotel": 1275
+            },
+            "mortgageValue": 150
+        },
+        {
+            "name": "North Carolina Avenue",
+            "position": 32,
+            "color": "green",
+            "price": 300,
+            "rent": {
+                "base": 26,
+                "oneHouse": 130,
+                "twoHouses": 390,
+                "threeHouses": 900,
+                "fourHouses": 1100,
+                "hotel": 1275
+            },
+            "mortgageValue": 150
+        },
+        {
+            "name": "Pennsylvania Avenue",
+            "position": 34,
+            "color": "green",
+            "price": 320,
+            "rent": {
+                "base": 28,
+                "oneHouse": 150,
+                "twoHouses": 450,
+                "threeHouses": 1000,
+                "fourHouses": 1200,
+                "hotel": 1400
+            },
+            "mortgageValue": 160
+        },
+        {
+            "name": "Park Place",
+            "position": 37,
+            "color": "blue",
+            "price": 350,
+            "rent": {
+                "base": 35,
+                "oneHouse": 175,
+                "twoHouses": 500,
+                "threeHouses": 1100,
+                "fourHouses": 1300,
+                "hotel": 1500
+            },
+            "mortgageValue": 175
+        },
+        {
+            "name": "Boardwalk",
+            "position": 39,
+            "color": "blue",
+            "price": 400,
+            "rent": {
+                "base": 50,
+                "oneHouse": 200,
+                "twoHouses": 600,
+                "threeHouses": 1400,
+                "fourHouses": 1700,
+                "hotel": 2000
+            },
+            "mortgageValue": 200
+        }
+    ]
+      

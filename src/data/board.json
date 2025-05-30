@@ -1,0 +1,34 @@
+{
+    "properties": "./properties.json",
+    "specials": "./specials.json",
+    "railroads": [
+        {
+            "name": "Reading Railroad",
+            "position": 5
+        },
+        {
+            "name": "Pennsylvania Railroad",
+            "position": 15
+        },
+        {
+            "name": "B&O Railroad",
+            "position": 25
+        },
+        {
+            "name": "Short Line",
+            "position": 35
+        }
+        
+    ],
+    "utilities": [
+        {
+            "name": "Electric Company",
+            "position": 12
+        },
+        {
+            "name": "Water Works",
+            "position": 28
+        }
+        
+    ]
+}

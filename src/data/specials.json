@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Go",
+        "position": 0,
+        "type": "go",
+        "action": {
+            "actionType": "default",
+            "amount": 200
+        }
+    },
+    {
+        "name": "Jail",
+        "position": 10,
+        "type": "jail",
+        "action": {
+            "actionType": "special",
+            "action": "goToJail"
+        }
+    },
+    {
+        "name": "Free Parking",
+        "position": 20,
+        "type": "free-parking",
+        "action": {
+            "actionType": "special",
+            "action": "collectFunds"
+        }
+    },
+    {
+        "name": "Go to Jail",
+        "position": 30,
+        "type": "go-to-jail",
+        "action": {
+            "actionType": "special",
+            "action": "goToJail"
+        }
+    },
+
+    
+    {
+        "name": "Income Tax",
+        "position": 4,
+        "type": "tax",
+        "action": {
+            "actionType": "default",
+            "amount": 200
+        }
+    },
+    {
+        "name": "Luxury Tax",
+        "position": 38,
+        "type": "tax",
+        "action": {
+            "actionType": "default",
+            "amount": 100
+        }
+    },
+
+
+    {
+        "name": "Chance",
+        "position": 7,
+        "type": "chance",
+        "action": {
+            "actionType": "special",
+            "action": "drawChanceCard"
+        }
+    },
+    {
+        "name": "Chance",
+        "position": 22,
+        "type": "chance",
+        "action": {
+            "actionType": "special",
+            "action": "drawChanceCard"
+        }
+    },
+    {
+        "name": "Chance",
+        "position": 36,
+        "type": "chance",
+        "action": {
+            "actionType": "special",
+            "action": "drawChanceCard"
+        }
+    },
+
+
+    {
+        "name": "Community Chest",
+        "position": 2,
+        "type": "community-chest",
+        "action": {
+            "actionType": "special",
+            "action": "drawCommunityChestCard"
+        }
+    },
+    {
+        "name": "Community Chest",
+        "position": 17,
+        "type": "community-chest",
+        "action": {
+            "actionType": "special",
+            "action": "drawCommunityChestCard"
+        }
+    },
+    {
+        "name": "Community Chest",
+        "position": 33,
+        "type": "community-chest",
+        "action": {
+            "actionType": "special",
+            "action": "drawCommunityChestCard"
+        }
+    }
+]
